@@ -1,0 +1,81 @@
+.header {
+  border-bottom: 2px black solid;
+  height: 66px;
+  width: 100%;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-image {
+  flex-grow: 1;
+  height: 66px;
+}
+.header-image img {
+  height: 100%;
+}
+
+.header-content {
+  flex-grow: 7;
+}
+
+.menu-item {
+  display: inline-flex;
+  height: 66px;
+  margin: 0;
+  padding-left: 280px;
+  padding: 0;
+  align-items: center;
+}
+.menu-item.link {
+  height: 100%;
+  padding: 0 2em;
+  list-style: none;
+  pointer-events: none;
+}
+
+.menu-item a {
+  text-decoration: none;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text",
+    "Times New Roman", serif;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  color: hsla(136, 95%, 20%, 0.75);
+  pointer-events: auto;
+}
+
+.menu-item.link:hover {
+  background: green;
+}
+
+.menu-item a:hover {
+  color: yellow;
+}
+
+.header-social-media {
+  flex-grow: 1;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter  */
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa {
+  margin: 17px;
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}

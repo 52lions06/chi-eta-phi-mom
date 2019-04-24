@@ -1,0 +1,21 @@
+.slider {
+  display: inline-block;
+  border: 2px red solid;
+  height: 700px;
+  width: 700px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.slide {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
