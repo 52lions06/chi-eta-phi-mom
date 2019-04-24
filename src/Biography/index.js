@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./biography.css";
 import image from "../Assets/Chi-Eta-Phi-1.jpg";
 
 class Biography extends Component {
@@ -10,7 +11,7 @@ class Biography extends Component {
 
   render() {
     return (
-      <div className="biography-content">
+      <div className="biography container">
         <div className="biography-image">
           <img src={image} alt="President" />
         </div>

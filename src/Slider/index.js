@@ -28,7 +28,7 @@ export default class Slider extends Component {
     if (this.state.currentIndex === 0) {
       return this.setState({
         currentIndex: this.state.images.length - 1,
-        translateValue: -4900 // This value will need to be updated depending on how many images have been added or removed
+        translateValue: -8400 // This value will need to be updated depending on how many images have been added or removed
       });
     }
     this.setState(prevState => ({
@@ -58,7 +58,7 @@ export default class Slider extends Component {
   render() {
     const { images } = this.state;
     return (
-      <div>
+      <div className="slideshow container">
         <div className="slider">
           <div
             className="slider-wrapper"

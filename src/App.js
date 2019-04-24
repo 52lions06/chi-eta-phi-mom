@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./Header";
 import Slider from "./Slider";
 import Biography from "./Biography";
+import GoogleMap from "./GoogleMap";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <Slider />
       <Biography />
+      <GoogleMap />
     </div>
   );
 };

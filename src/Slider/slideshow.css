@@ -1,10 +1,14 @@
+.slideshow.container {
+  flex-flow: column;
+}
+
 .slider {
   display: inline-block;
-  border: 2px red solid;
   height: 700px;
-  width: 700px;
+  width: 1200px;
   position: relative;
   white-space: nowrap;
+  margin-left: 250px;
   overflow: hidden;
 }
 
@@ -18,4 +22,9 @@
   display: inline-block;
   height: 100%;
   width: 100%;
+}
+
+.slider-arrows {
+  display: flex;
+  justify-content: space-around;
 }

@@ -1,0 +1,13 @@
+.biography.container {
+  justify-content: space-evenly;
+}
+
+.biography-image {
+  width: 500px;
+  border: 2px red solid;
+}
+.biography-content {
+  width: 500px;
+  padding: 2em;
+  border: 2px blue solid;
+}
